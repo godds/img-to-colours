@@ -1,0 +1,35 @@
+{
+  "name": "img-to-colours",
+  "description": "Get the colours of the first row of pixels in an image",
+  "version": "0.1.0",
+  "homepage": "https://github.com/godds/img-to-colours",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:godds/img-to-colours.git"
+  },
+  "bugs": {
+    "url": "https://github.com/godds/img-to-colours/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/godds/img-to-colours/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/img-to-colours",
+  "bin": {
+    "img-to-colours": "lib/img-to-colours"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "pngparse": "2.0.1"
+  },
+  "keywords": []
+}
